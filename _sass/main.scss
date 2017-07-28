@@ -23,12 +23,15 @@ $unit:          $inuit-global-spacing-unit;
 $unit-large:    $inuit-global-spacing-unit-large;
 $unit-huge:     $inuit-global-spacing-unit-huge;
 
-
+/**
+ * Font Families
+ */
+$font-primary:      'Roboto', Helvetica, Arial, sans-serif;
+$font-secondary:    $font-primary;
 
 
 
 // TOOLS
-@import "../node_modules/inuitcss/tools/tools.rem";
 @import "../node_modules/inuitcss/tools/tools.font-size";
 @import "../node_modules/inuitcss/tools/tools.clearfix";
 @import "../node_modules/inuitcss/tools/tools.hidden";
@@ -59,12 +62,12 @@ $unit-huge:     $inuit-global-spacing-unit-huge;
  * 1. Scale page to at least viewport height, min-height not enough
  */
 html {
-    background-color: $c-background;
     height: 100%; /* 1 */
 }
 
 body {
     @include font(primary);
+    background-color: $c-secondary;
     color: $c-text;
     font-weight: 300;
 }
@@ -77,6 +80,7 @@ h5,
 h6 {
     @include font(secondary);
     font-weight: normal;
+    color: $c-primary;
 }
 
 hr {
@@ -127,7 +131,7 @@ code {
 
 
 // OBJECTS
-$inuit-wrapper-width: 970px;
+$inuit-wrapper-width: 1200px;
 @import "../node_modules/inuitcss/objects/objects.wrapper";
 @import "../node_modules/inuitcss/objects/objects.layout";
 @import "../node_modules/inuitcss/objects/objects.media";
@@ -138,24 +142,38 @@ $inuit-wrapper-width: 970px;
 @import "../node_modules/inuitcss/objects/objects.block";
 @import "../node_modules/inuitcss/objects/objects.ratio";
 @import "../node_modules/inuitcss/objects/objects.crop";
-@import "../node_modules/inuitcss/objects/objects.tables";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
 
 
 // COMPONENTS
 @import "components.hero";
-// @import "components.site-footer";
 @import "components.buttons";
 @import "components.forms";
 @import "components.jquery-ui";
 @import "components.tables";
 @import "components.alerts";
-// @import "components.background";
 @import "components.footer";
-@import "components.landing";
-@import "components.creation";
+// @import "components.landing";
+// @import "components.creation";
+@import "components.links";
 
+.c-header {
+    position: relative;
+    z-index: 2;
+    background-color: $c-white;
+    padding-top: $unit;
+    padding-bottom: $unit;
+    border-bottom: 6px solid $c-secondary;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.c-main {
+    background-color: $c-white;
+    min-height: 12em;
+    background-size: cover;
+    background-position: center;
+}
 
 
 // PLUGINS
@@ -167,14 +185,15 @@ $inuit-wrapper-width: 970px;
 // UTILITIES
 @import "../node_modules/inuitcss/utilities/utilities.clearfix";
 $inuit-offsets: true;
-$inuit-fractions: 1 2 3 7;
+$inuit-fractions: 1 2 3 4;
 @import "../node_modules/inuitcss/utilities/utilities.widths";
 @import "../node_modules/inuitcss/utilities/utilities.headings";
-@import "../node_modules/inuitcss/utilities/utilities.spacing";
+@import "utilities.responsive-spacings";
 @import "../node_modules/inuitcss/utilities/utilities.print";
 @import "../node_modules/inuitcss/utilities/utilities.hide";
 @import "utilities.owl";
 @import "utilities.orientation";
+@import "utilities.text-align";
 
 .u-100-height {
     height: 100%;
@@ -188,12 +207,16 @@ $inuit-fractions: 1 2 3 7;
     font-size: 120%;
 }
 
-.u-opacity-30 {
-    opacity: .3;
+.u-text-dark {
+    color: $c-gray-8;
 }
 
-.u-text-center {
-    text-align: center;
+.u-text-normal {
+    font-weight: 300;
+}
+
+.u-opacity-30 {
+    opacity: .3;
 }
 
 .u-block-center {
@@ -213,4 +236,8 @@ $inuit-fractions: 1 2 3 7;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.u-bg-transparent {
+    background-color: rgba($c-white, .5);
 }

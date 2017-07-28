@@ -52,10 +52,10 @@
         cursor: pointer;
         display: inline-block;
         font-weight: normal;
-        padding: $unit / 4 $unit / 2;
+        padding: $unit-tiny $unit;
 
         >input {
-            margin-right: $unit / 4;
+            margin-right: $unit-tiny;
         }
 
         &:first-child {

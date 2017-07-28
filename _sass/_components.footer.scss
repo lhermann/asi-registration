@@ -3,16 +3,13 @@
    ========================================================================== */
 
 .c-footer {
-    &--page {
-        margin: 0 $unit;
-        border-top: 1px solid $c-border;
-        padding-top: $unit;
-    }
+    background-color: $c-secondary;
+    padding-top: $unit;
+    padding-bottom: $unit;
+    color: $c-white;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, .1);
 
-    &--landing {
-        &,
-        a {
-            color: rgba($c-white, .6);
-        }
+    a {
+        color: $c-white;
     }
 }

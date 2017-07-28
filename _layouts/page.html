@@ -1,5 +1,5 @@
 ---
-layout: creation-grid
+layout: default
 ---
 
 <section class="u-padding-top-large u-padding-bottom-large">
@@ -10,10 +10,10 @@ layout: creation-grid
             <a href="{{page.backlink}}/" class="c-btn c-btn--primary c-btn--ghost">Schließen</a>
         </div>
 
+        <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+
         {{ content }}
 
     </div>
 
 </section>
-
-{% include footer.html %}

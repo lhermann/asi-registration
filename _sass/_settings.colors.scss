@@ -6,11 +6,11 @@
  * Brand Colors
  */
 
-$c-primary:               #6e1b52;
+$c-primary:               #2c3b79;
 $c-primary-lighter:       lighten($c-primary, 10%);
 $c-primary-darker:        darken($c-primary, 15%);
 
-$c-secondary:             #fff;
+$c-secondary:             #dac9a1;
 $c-secondary-lighter:     lighten($c-secondary, 10%);
 $c-secondary-darker:      darken($c-secondary, 20%);
 
@@ -19,7 +19,7 @@ $c-tertiary-lighter:      lighten($c-tertiary, 10%);
 $c-tertiary-darker:       darken($c-tertiary, 20%);
 
 
-$c-text:                  #333;
+$c-text:                  #687480;
 $c-accent:                $c-primary;
 $c-background:            #f2f2f0;
 $c-border:                rgba($c-primary, .1);
@@ -29,19 +29,18 @@ $c-light:                 #eee;
 $c-alert:                 #cc394b;
 
 
-$c-black:                 #000;
-$c-dark-gray:             lighten($c-black, 20%);
-$c-gray:                  lighten($c-black, 50%);
-$c-light-gray:            lighten($c-black, 95%);
-$c-white:                 #fff;
+$c-white:       #fff;
+$c-gray-1:      #f8f8f8;
+$c-gray-2:      #f0f0f0;
+$c-gray-3:      #e8e8e8;
+$c-gray-4:      #b6b6b6;
+$c-gray-5:      #8e8e8e;
+$c-gray-6:      #666;
+$c-gray-7:      #4d4d4d;
+$c-gray-8:      #333;
+$c-gray-9:      #262626;
+$c-black:       #000;
 
-
-/**
- * Font Families
- */
-
-$font-primary:      'Roboto', sans-serif;
-$font-secondary:    'Roboto', sans-serif;
 
 /**
  * Buttons

@@ -2,7 +2,7 @@
    #ALERTS
    ========================================================================== */
 
-.alert {
+.c-alert {
     padding: $unit / 2 $unit;
     margin-bottom: $unit;
     border-radius: $global-radius;
@@ -11,13 +11,13 @@
     background-color: rgba($c-primary-lighter, .2);
 }
 
-.alert--secondary {
+.c-alert--secondary {
     border-color: $c-secondary-darker;
     color: $c-secondary-darker;
     background-color: rgba($c-secondary-lighter, .4);
 }
 
-.alert--tertiary {
+.c-alert--tertiary {
     border-color: $c-tertiary-darker;
     color: $c-tertiary-darker;
     background-color: rgba($c-tertiary-lighter, .2);

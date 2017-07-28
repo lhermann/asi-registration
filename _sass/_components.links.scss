@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+.c-link {
+    color: $c-text;
+    transition: color $global-transition;
+
+    &:hover,
+    &:focus {
+        color: $c-primary;
+        text-decoration: none;
+    }
+}
+
+.c-link--uppercase {
+    text-transform: uppercase;
+}
+
+.c-link--touch {
+    @include mq($until: desktop) {
+        padding-top: $unit-tiny;
+        padding-bottom: $unit-tiny;
+    }
+}
+
+.c-link--block {
+    display: block;
+    padding: $unit-small $unit;
+    white-space: nowrap;
+}
+
+.c-link--primary {
+    color: $c-text;
+
+    &:active,
+    &:hover {
+        background-color: $c-accent;
+        color: $c-white;
+    }
+}
+
+    .c-link__float-right {
+        float: right;
+        margin-top: -$inuit-global-line-height;
+        @include mq($until: tablet) {
+            margin-top: -18px;
+        }
+    }

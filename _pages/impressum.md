@@ -3,26 +3,25 @@ layout:     page
 title:      Impressum
 permalink:  /impressum/
 backlink:
-background: {
-    side: "sabbath",
-    img: "/assets/img/bg1-sabbath.jpg"
-}
 ---
-
-# Impressum
 
 ## Angaben gemäß § 5 TMG:
 
 <ul class="o-list-bare">
-    <li>Markus Witte</li>
-    <li>Klosterhofstr. 126</li>
-    <li>D-65931 Frankfurt am Main</li>
+    <li>ASI Deutschland e.V.</li>
+    <li>Eichenkamp 9</li>
+    <li>23847 Kastorf</li>
 </ul>
 
 ## Kontakt:
 
-- Telefon: +49 174 3316232
-- E-Mail: <noscript defuscate data-name="info" data-domain="waldenses.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+- Telefon: 0700-27433887
+- E-Mail: <noscript defuscate data-name="info" data-domain="asideutschland.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+
+## Vorstand
+Gabriele Pietruska (Vorsitzende), Markus Witte (Stellv. Vorsitzender), Daniel Knirsch (Rechnungsführer), Dieter Grennerth-Zeck (Sekretär), Christina Schmitz (weiteres Vorstandsmitglied), Jesse Zwiker (weiteres Vorstandsmitglied)
+
+Vereinsregister Darmstadt, VR 2261
 
 ## Haftungsausschluss (Disclaimer)
 

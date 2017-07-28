@@ -4,11 +4,10 @@
   "description": "Website",
   "main": "index.html",
   "dependencies": {
-    "inuitcss": "^6.0.0-beta.4",
+    "inuitcss": "^6.0.0-beta.5",
     "open-color": "^1.5.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

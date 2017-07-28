@@ -2,23 +2,14 @@
 layout:     page
 title:      Anmeldung
 permalink:  /anmeldung/
-background: {
-    side: "sabbath",
-    img: "/assets/img/bg2-sabbath.jpg"
-}
 ---
 
-<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=a86e06c423eea17e2c269e9a7bd12e7c" method="post">
-    <input type='hidden' name='redirect_to' value='http://www.waldenses.org/empfangsbestaetigung/' />
+<form action="https://getform.org/f/3e5f9f13-a9b6-4924-95b1-5b5ec903e4b6" method="POST">
+<!--<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=a86e06c423eea17e2c269e9a7bd12e7c" method="post">-->
+    <!--<input type='hidden' name='redirect_to' value='http://www.waldenses.org/empfangsbestaetigung/' />-->
 
-    <div class="alert alert--tertiary">
-        <p><strong>Anmeldeschluss:</strong> 23. Juli 2017</p>
-        <p class="u-margin-bottom-none"><strong>Es sind nur noch wenige Plätze frei:</strong></p>
-        <ul class="u-margin-bottom">
-            <li>Woche 1: Nur noch ca. 5 Plätze im Berghaus und ein weiteres Zelt (mit ca. 2-4 Personen)</li>
-            <li>Woche 2: Nur noch ca. 2 Plätze im Berghaus und noch 2 Zelte (mit ca. 2-4 Personen)</li>
-        </ul>
-        <p class="u-margin-bottom-none">Sollten von Euch mehr Plätze benötigt werden, als aktuell noch zur Verfügung stehen, bitte mit Markus Witte unter <noscript defuscate data-name="markus.witte" data-domain="waldenses.org"><em>(diese E-Mail-Adresse ist durch JavaScript geschützt)</em></noscript> Kontakt aufnehmen.</p>
+    <div class="c-alert c-alert--tertiary">
+        <p class="u-margin-bottom-none"><strong>Anmeldeschluss:</strong> 15. November 2017</p>
     </div>
 
     <fieldset>
@@ -30,38 +21,36 @@ background: {
                 <thead>
                     <tr>
                         <th></th>
-                        <th class="u-content-left">Im Berghaus<br><small>Mehrbettzimmer: 4, 6, und 8 Pers.</small></th>
-                        <th class="u-content-left">Im Zelt</th>
+                        <th>Normal</th>
+                        <th>Ermäßigt <span class="u-text-normal">für ASI-Mitglieder</span></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Erwachsene<br><small>und Kinder ab 12 Jahren</small></th>
-                        <td>205,00 €</td>
-                        <td>140,00 €</td>
+                        <th>
+                            Erwachsene
+                            <small class="u-text-normal">
+                                <br>inklusive Verpflegung
+                                <br>2x Mittag- &amp; 2x Abendessen,
+                                <br>ohne Unterkunft
+                            </small>
+                        </th>
+                        <td>99,00 €</td>
+                        <td>89,00 €</td>
                     </tr>
                     <tr>
-                        <th>Kinder 8-11 Jahre</th>
-                        <td>150,00 €</td>
-                        <td>80,00 €</td>
-                    </tr>
-                    <tr>
-                        <th>Kinder 4-7 Jahre</th>
-                        <td>120,00 €</td>
-                        <td>50,00 €</td>
-                    </tr>
-                    <tr>
-                        <th>Kinder 0-3 Jahre</th>
-                        <td>kostenlos<br><small>wenn eigenes Bett mitgebracht wird</small></td>
-                        <td>kostenlos</td>
+                        <th>Kinder bis 14 Jahre</th>
+                        <td>frei</td>
+                        <td>frei</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p class="u-text-small">Sollten sich Teilnehmer eine Unterkunft in einer Pension wünschen, empfehlen wir die Foresteria Valdese in Torre Pellice. Preise und Reservierung unter: <a href="http://www.foresteriatorre.org/index.php?lang=de">www.foresteriatorre.org</a>
-            <br>Bitte diese Option vorher mit der Reiseleitung abstimmen.</p>
+            <p><small>Verpflegung in der Wasserburg Turow: <strong>vegan/vegetarisch</strong> (glutenfrei auf Anfrage möglich)</small></p>
 
-            <p class="u-text-small">Die Anreise erfolgt privat mit eigenen Fahrzeugen. Wer mit der Bahn bis Pinerolo reisen möchte, kann dort vom Bahnhof abgeholt werden.</p>
+            <div class="c-alert c-alert--secondary">
+                Die Unterkunft muss separat und selbst gebucht werden. Wir haben dazu eine Liste von <a href="/unterkunft/">Unterkünften in der Nähe</a> zusammengestellt.
+            </div>
         </div>
 
     </fieldset>
@@ -80,13 +69,6 @@ background: {
             <li class="o-layout__item u-1/2@tablet">
                 <label class="c-form__label" for="last-name">Nachname <sup>*</sup></label>
                 <input type="text" id="last-name" name="Nachname" autocomplete="last-name" required>
-            </li>
-            <li class="o-layout__item u-1/2@tablet">
-                <div class="c-form__label">Geschlecht <sup>*</sup></div>
-                <div class="c-form__radio-group">
-                    <label class="c-form__radio-btn" for="male"><input id="male" type="radio" name="Geschlecht" value="M" required> männlich</label><!--
-                    --><label class="c-form__radio-btn" for="female"><input id="female" type="radio" name="Geschlecht" value="F" required> weiblich</label>
-                </div>
             </li>
             <li class="o-layout__item u-1/2@tablet">
                 <label class="c-form__label" for="birthdate">Geburtsdatum <sup>*</sup></label>
@@ -147,27 +129,13 @@ background: {
 
         <ul class="o-layout u-owl u-owl--small">
             <li class="o-layout__item u-1/2@tablet">
-                <div class="c-form__label">Unterbringung <sup>*</sup></div>
-                <div class="c-form__radio-group c-form__radio-group--vertical">
-                    <label class="c-form__radio-btn" for="berghaus">
-                        <input id="berghaus" type="radio" name="Unterbringung" value="Berghaus" required> Berghaus (Mehrbettzimmer)
+                <div class="c-form__label">ASI Mitglied <sup>*</sup></div>
+                <div class="c-form__radio-group">
+                    <label class="c-form__radio-btn" for="ja">
+                        <input id="ja" type="radio" name="ASI Mitglied" value="Ja" required> Ja
                     </label><!--
-                    --><label class="c-form__radio-btn" for="zelt">
-                        <input id="zelt" type="radio" name="Unterbringung" value="Zelt" required> Zelt
-                    </label>
-                </div>
-            </li>
-            <li class="o-layout__item u-1/2@tablet">
-                <div class="c-form__label">Woche <sup>*</sup></div>
-                <div class="c-form__radio-group c-form__radio-group--vertical">
-                    <label class="c-form__radio-btn" for="week1">
-                        <input id="week1" type="radio" name="Woche" value="06.-13.08." required> 06. - 13.08.2017
-                    </label><!--
-                    --><label class="c-form__radio-btn" for="week2">
-                        <input id="week2" type="radio" name="Woche" value="13.-20.08." required> 13. - 20.08.2017
-                    </label><!--
-                    --><label class="c-form__radio-btn" for="week3">
-                        <input id="week3" type="radio" name="Woche" value="06.-13.08. & 13.-20.08." required> 06. - 13.08.2017 und 13. - 20.08.2017
+                    --><label class="c-form__radio-btn" for="nein">
+                        <input id="nein" type="radio" name="ASI Mitglied" value="Nein" required checked="checked"> Nein
                     </label>
                 </div>
             </li>
@@ -181,7 +149,7 @@ background: {
 
     <p class="">Mit <sup>*</sup> markierte Felder sind Pflichtfelder.</p>
 
-    <div class="o-layout u-owl u-owl--bottom u-text-center">
+    <div class="o-layout u-owl u-owl--bottom">
         <div class="o-layout__item u-1/2@tablet u-1/3@desktop">
             <button type="submit" class="c-btn c-btn--primary">Anmeldung absenden</button>
         </div>
@@ -189,8 +157,8 @@ background: {
             <a href="/zahlungsinformationen/" class="c-btn c-btn--primary c-btn--ghost">Zahlungsinformationen</a>
         </div>
         <div class="o-layout__item u-1/1@tablet u-1/3@desktop">
-            Kontakt bei Fragen: Markus Witte
-            <noscript defuscate data-name="markus.witte" data-domain="waldenses.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+            Kontakt bei Fragen:
+            <br><noscript defuscate data-name="jahrestagung" data-domain="asi-germany.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
         </div>
     </div>
 

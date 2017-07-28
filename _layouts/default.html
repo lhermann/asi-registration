@@ -5,15 +5,17 @@
 
     <body>
 
-        {% include background.html %}
+        {% include header.html %}
 
-        <div class="o-layout u-100-height">
-            <div class="o-layout__item u-6/7 u-100-height">
+        <main class="c-main" style="background-image: url('{{page.background}}');">
+            <div class="o-wrapper">
 
-                {{ content }}
+            {{ content }}
 
             </div>
-        </div>
+        </main>
+
+        {% include footer.html %}
 
         {% include foot.html %}
 
