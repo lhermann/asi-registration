@@ -126,7 +126,15 @@ code {
 @import "../node_modules/inuitcss/elements/elements.tables";
 @import "elements.forms";
 
+html {
+    @include mq($until: tablet) {
+        font-size: 14px;
+    }
 
+    @include mq($until: mobile) {
+        font-size: 12px;
+    }
+}
 
 
 
@@ -198,6 +206,7 @@ $inuit-fractions: 1 2 3 4;
 @import "utilities.owl";
 @import "utilities.orientation";
 @import "utilities.text-align";
+@import "utilities.hide";
 
 .u-100-height {
     height: 100%;
@@ -245,3 +254,4 @@ $inuit-fractions: 1 2 3 4;
 .u-bg-transparent {
     background-color: rgba($c-white, .5);
 }
+
