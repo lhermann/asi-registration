@@ -7,7 +7,7 @@ background: "/assets/img/bg-asi.jpg"
 ---
 
 <div class="u-orient-center">
-    <div class="u-mt+ u-mb+">
+    <div class="u-mt+@tablet u-mb+@tablet">
         <div class="o-box u-bg-transparent u-text-dark u-text-center u-pl++@tablet u-pr++@tablet">
             <h1 class="u-mb0">Anmeldung</h1>
             <h2>ASI Deutschland Jahrestagung 2017</h2>
@@ -15,9 +15,17 @@ background: "/assets/img/bg-asi.jpg"
             <br><small>nach Lukas 16,8 – Die Wirtschaftsethik des untreuen Ökonomen im 21. Jahrhundert</small></p>
             <h2 class="u-margin-bottom-none">24.-26. November 2017</h2>
             <p>Wasserburg Turow</p>
-            <a href="/anmeldung/" class="c-btn c-btn--primary u-mb-">Anmeldung</a>
-            <a href="/unterkunft/" class="c-btn c-btn--primary u-mb-">Unterkunft</a>
-            <a href="/anreise/" class="c-btn c-btn--primary u-mb-">Anreise</a>
+            <div class="o-layout">
+                <div class="o-layout__item u-1/3@tablet u-mb-">
+                    <a href="/anmeldung/" class="c-btn c-btn--primary u-2/3 u-1/1@tablet u-mb-">Anmeldung</a>
+                </div>
+                <div class="o-layout__item u-1/3@tablet u-mb-">
+                    <a href="/unterkunft/" class="c-btn c-btn--primary u-2/3 u-1/1@tablet u-mb-">Unterkunft</a>
+                </div>
+                <div class="o-layout__item u-1/3@tablet u-mb-">
+                    <a href="/anreise/" class="c-btn c-btn--primary u-2/3 u-1/1@tablet u-mb-">Anreise</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

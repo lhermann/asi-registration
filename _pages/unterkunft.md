@@ -5,10 +5,10 @@ permalink:  /unterkunft/
 ---
 
 <div class="c-alert">
-    Mittag- und Abendessen während der ASI-Tagung sind im Teilnehmerbeitrag inbegriffen. Frühstück und Unterkunft muss separat gebucht werden.
+    Mittag- und Abendessen während der ASI-Tagung sind im Teilnehmerbeitrag inbegriffen. Frühstück mit Unterkunft muss separat gebucht werden.
 </div>
 
-Auf der Wasserburg Turow stehen nur begrenzt Unterkünfte zur Verfügung. Anfragen zu Zimmern (Übernachtung mit Frühstück) auf der Wasserburg sowie zu Stellplätzen für Wohnmobile sind direkt an die <a href="http://wasserburg-turow.de">Wasserburg Turow</a> zu richten
+Auf der Wasserburg Turow stehen nur begrenzt Unterkünfte zur Verfügung. Anfragen zu Zimmern (Übernachtung mit Frühstück) auf der Wasserburg sowie zu Stellplätzen für Wohnmobile sind direkt an die <a href="http://wasserburg-turow.de">Wasserburg Turow</a> zu richten.
 
 In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unterkünfte zur Verfügung:
 <br><small>Bitte diese Unterkünfte separat buchen und abrechnen.</small>
