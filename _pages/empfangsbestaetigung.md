@@ -17,7 +17,6 @@ backlink:   /anmeldung
 </div>
 
 Die Zahlung erfolgt auf das Bankkonto von ASI Deutschland e.V.
-<br>Um es technisch einfach zu halten versenden wir keine separaten Empfangsbestätigung per E-Mail.
 <br>Bitte überweißen Sie Ihren Teilnehmerbeitrag innerhalb von 3 Wochen.
 
 ## Bankverbindung
@@ -29,6 +28,6 @@ Die Zahlung erfolgt auf das Bankkonto von ASI Deutschland e.V.
 
 Als Verwendungszweck bitte ```ASI-TAGUNG 2017 NAME``` verwenden und ```NAME``` mit dem vollständigen **Vor- und Nachnamen** des Teilnehmers ersetzen.
 
-<div class="c-alert">
-    Bitte vergesst nicht, rechtzeitig eine geeignete <a href="/unterkunft/">Unterkunft</a> zu buchen.
+<div class="c-alert c-alert--secondary">
+    Bitte vergiss nicht, rechtzeitig eine geeignete <a href="/unterkunft/">Unterkunft</a> zu buchen.
 </div>
