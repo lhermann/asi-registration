@@ -4,8 +4,8 @@ title:      Anreise
 permalink:  /anreise/
 ---
 
-<div class="o-layout u-mb">
-    <div class="o-layout__item u-1/4">
+<div class="o-layout u-mb-">
+    <div class="o-layout__item u-1/1 u-1/4@tablet u-mb-">
         <ul class="o-list-bare">
             <li class="u-text-large">Wasserburg Turow</li>
             <li>Turow 19</li>
@@ -13,17 +13,17 @@ permalink:  /anreise/
             <li><a href="http://www.wasserburg-turow.de">www.wasserburg-turow.de</a></li>
         </ul>
     </div>
-    <div class="o-layout__item u-1/4">
+    <div class="o-layout__item u-1/3 u-1/4@tablet u-mb-">
         <a href="#" data-featherlight="/assets/img/wasserburg1.jpg">
             <img src="/assets/img/wasserburg1.jpg" alt="Wasserburg Turow Front">
         </a>
     </div>
-    <div class="o-layout__item u-1/4">
+    <div class="o-layout__item u-1/3 u-1/4@tablet u-mb-">
         <a href="#" data-featherlight="/assets/img/wasserburg2.jpg">
             <img src="/assets/img/wasserburg2.jpg" alt="Wasserburg Turow Seite">
         </a>
     </div>
-    <div class="o-layout__item u-1/4">
+    <div class="o-layout__item u-1/3 u-1/4@tablet u-mb-">
         <a href="#" data-featherlight="/assets/img/wasserburg3.jpg">
             <img src="/assets/img/wasserburg3.jpg" alt="Wasserburg Turow Scheune">
         </a>
