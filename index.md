@@ -9,7 +9,8 @@ background: "/assets/img/bg-asi.jpg"
 <div class="u-orient-center">
     <div class="u-mt+ u-mb+">
         <div class="o-box u-bg-transparent u-text-dark u-text-center u-pl++@tablet u-pr++@tablet">
-            <h1 class="u-margin-bottom-none">ASI Deutschland Jahrestagung 2017</h1>
+            <h1 class="u-mb0">Anmeldung</h1>
+            <h2>ASI Deutschland Jahrestagung 2017</h2>
             <p class="u-text-large">„Die Klugheit der Welt – Falle oder Vorbild?“
             <br><small>nach Lukas 16,8 – Die Wirtschaftsethik des untreuen Ökonomen im 21. Jahrhundert</small></p>
             <h2 class="u-margin-bottom-none">24.-26. November 2017</h2>
