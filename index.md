@@ -13,7 +13,7 @@ background: "/assets/img/bg-asi.jpg"
             <h2>ASI Deutschland Jahrestagung 2017</h2>
             <p class="u-text-large">„Die Klugheit der Welt – Falle oder Vorbild?“
             <br><small>nach Lukas 16,8 – Die Wirtschaftsethik des untreuen Ökonomen im 21. Jahrhundert</small></p>
-            <h2 class="u-margin-bottom-none">24.-26. November 2017</h2>
+            <h2 class="u-mb0">24.-26. November 2017</h2>
             <p>Wasserburg Turow</p>
             <div class="o-layout">
                 <div class="o-layout__item u-1/3@tablet u-mb-">
