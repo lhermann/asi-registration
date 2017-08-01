@@ -6,9 +6,12 @@
     padding: $unit / 2 $unit;
     margin-bottom: $unit;
     border-radius: $global-radius;
-    border: 1px solid $c-primary-darker;
-    color: $c-primary-darker;
-    background-color: rgba($c-primary-lighter, .2);
+    // border: 1px solid $c-primary;
+    // color: $c-primary;
+    // background-color: rgba($c-primary-lighter, .2);
+    border: 1px solid #31708f;
+    color: #31708f;
+    background-color: #d9edf7;
 }
 
 .c-alert--secondary {

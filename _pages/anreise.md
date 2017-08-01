@@ -4,7 +4,7 @@ title:      Anreise
 permalink:  /anreise/
 ---
 
-<div class="o-layout u-margin-bottom">
+<div class="o-layout u-mb">
     <div class="o-layout__item u-1/4">
         <ul class="o-list-bare">
             <li class="u-text-large">Wasserburg Turow</li>

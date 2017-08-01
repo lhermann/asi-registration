@@ -6,15 +6,17 @@ layout: default
 background: "/assets/img/bg-asi.jpg"
 ---
 
-<div class="o-box o-box--huge">
-    <div class="o-box u-bg-transparent u-text-dark u-text-center">
-        <h1 class="u-margin-bottom-none">ASI Deutschland Jahrestagung 2017</h1>
-        <p class="u-text-large">„Die Klugheit der Welt – Falle oder Vorbild?“
-        <br><small>nach Lukas 16,8 – Die Wirtschaftsethik des untreuen Ökonomen im 21. Jahrhundert</small></p>
-        <h2 class="u-margin-bottom-none">24.-26. November 2017</h2>
-        <p>Wasserburg Turow</p>
-        <a href="/anmeldung/" class="c-btn c-btn--primary">Anmeldung</a>
-        <a href="/unterkunft/" class="c-btn c-btn--primary">Unterkunft</a>
-        <a href="/anreise/" class="c-btn c-btn--primary">Anreise</a>
+<div class="u-orient-center">
+    <div class="u-mt+ u-mb+">
+        <div class="o-box u-bg-transparent u-text-dark u-text-center u-pl++@tablet u-pr++@tablet">
+            <h1 class="u-margin-bottom-none">ASI Deutschland Jahrestagung 2017</h1>
+            <p class="u-text-large">„Die Klugheit der Welt – Falle oder Vorbild?“
+            <br><small>nach Lukas 16,8 – Die Wirtschaftsethik des untreuen Ökonomen im 21. Jahrhundert</small></p>
+            <h2 class="u-margin-bottom-none">24.-26. November 2017</h2>
+            <p>Wasserburg Turow</p>
+            <a href="/anmeldung/" class="c-btn c-btn--primary u-mb-">Anmeldung</a>
+            <a href="/unterkunft/" class="c-btn c-btn--primary u-mb-">Unterkunft</a>
+            <a href="/anreise/" class="c-btn c-btn--primary u-mb-">Anreise</a>
+        </div>
     </div>
 </div>

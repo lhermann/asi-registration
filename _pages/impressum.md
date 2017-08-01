@@ -19,7 +19,7 @@ backlink:
 - E-Mail: <noscript defuscate data-name="info" data-domain="asideutschland.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
 
 ## Vorstand
-Gabriele Pietruska (Vorsitzende), Markus Witte (Stellv. Vorsitzender), Daniel Knirsch (Rechnungsführer), Dieter Grennerth-Zeck (Sekretär), Christina Schmitz (weiteres Vorstandsmitglied), Jesse Zwiker (weiteres Vorstandsmitglied)
+Gabriele Pietruska (Vorsitzende), Markus Witte (Stellv. Vorsitzender), Daniel Knirsch (Rechnungsführer), Ronny Schreiber (Sekretär), Jesse Zwiker (weiteres Vorstandsmitglied), Gabriel Maurer (weiteres Vorstandsmitglied)
 
 Vereinsregister Darmstadt, VR 2261
 

@@ -5,14 +5,16 @@ permalink:  /unterkunft/
 ---
 
 <div class="c-alert">
-    Auf der Wasserburg Turow stehen nur begrenzt Unterkünfte zur Verfügung. Anfragen für Übernachtungen auf der Wasserburg sind direkt an die <a href="http://wasserburg-turow.de">Wasserburg Turow</a> zu richten
+    Auf der ASI-Tagung ist für Mittag- und Abendessen der Teilnehmer gesorgt. Um Frühstück und Unterkunft muss sich selbst gekümmert werden.
 </div>
+
+Auf der Wasserburg Turow stehen nur begrenzt Unterkünfte zur Verfügung. Anfragen für Übernachtung und Frühstück auf der Wasserburg sind direkt an die <a href="http://wasserburg-turow.de">Wasserburg Turow</a> zu richten
 
 In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unterkünfte zur Verfügung:
 <br><small>Bitte diese Unterkünfte separat buchen und abrechnen.</small>
 
-<table class="c-table">
-    <thead class="u-text-left">
+<table class="c-table u-text-left">
+    <thead>
         <tr>
             <th>Unterkunft / Adresse</th>
             <th>Website / Telefon</th>
@@ -22,7 +24,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
     <tbody>
         <tr>
             <td>
-                Wasserburg Turow (Gästezimmer)
+                <strong>Wasserburg Turow (Gästezimmer)</strong>
                 <br><small>Turow 19, 18513 Glewitz</small>
             </td>
             <td>
@@ -33,7 +35,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Landkulturhaus Leyerhof (Pension)
+                <strong>Landkulturhaus Leyerhof (Pension)</strong>
                 <br><small>Leyerhof Nr. 65, 18513 Leyerhof</small>
             </td>
             <td>
@@ -44,7 +46,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Landhotel Gut Zarrentin
+                <strong>Landhotel Gut Zarrentin</strong>
                 <br><small>Zarrentin 29, 18513 Gransebieth</small>
             </td>
             <td>
@@ -55,8 +57,8 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Pension Gutshaus Dönnie
-                <br>Neue Straße 9,18516 Süderholz
+                <strong>Pension Gutshaus Dönnie</strong>
+                <br><small>Neue Straße 9,18516 Süderholz</small>
             </td>
             <td>
                 <a href="http://www.gutshaus-doennie.de/preise.html">gutshaus-doennie.de</a>
@@ -67,7 +69,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Naturoase Birkenhof (Ferienzimmer, Ferienwohnungen)
+                <strong>Naturoase Birkenhof (Ferienzimmer, Ferienwohnungen)</strong>
                 <br><small>Schulweg 1, 18465 Tribsees</small>
             </td>
             <td>
@@ -79,7 +81,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Stöberscheune (Zimmer)
+                <strong>Stöberscheune (Zimmer)</strong>
                 <br><small>Grimmener Chaussee 10, 18465 Tribsees</small>
             </td>
             <td>
@@ -91,7 +93,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Pension Am Stadtpark
+                <strong>Pension Am Stadtpark</strong>
                 <br><small>Dr.-Kurt-Fischer-Straße 1a, 18507 Grimmen</small>
             </td>
             <td>
@@ -102,8 +104,8 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Knabstruppergestüt: „Little Uncle“
-                <br>Ausbau 3, 18465 Tribsees
+                <strong>Knabstruppergestüt: „Little Uncle“</strong>
+                <br><small>Ausbau 3, 18465 Tribsees</small>
             </td>
             <td>
                 <a href="http://www.little-uncle.de/">little-uncle.de</a>
@@ -113,7 +115,7 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Hotel Trebeltal
+                <strong>Hotel Trebeltal</strong>
                 <br><small>Klänhammerweg 3, 17109 Demmin</small>
             </td>
             <td>
@@ -124,8 +126,8 @@ In der Umgebung, bis ca. 20 km von der Wasserburg entfernt, stehen folgende Unte
         </tr>
         <tr>
             <td>
-                Golfhotel Strelasund
-                <br>Zur Alten Hofstelle 1-4, 18516 Süderholz, OT Kaschow
+                <strong>Golfhotel Strelasund</strong>
+                <br><small>Zur Alten Hofstelle 1-4, 18516 Süderholz, OT Kaschow</small>
             </td>
             <td>
                 <a href="http://golfpark-strelasund.de/golfhotel">golfpark-strelasund.de</a>

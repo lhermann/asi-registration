@@ -144,6 +144,10 @@ $inuit-wrapper-width: 1200px;
 @import "../node_modules/inuitcss/objects/objects.crop";
 @import "../node_modules/inuitcss/objects/objects.pack";
 
+.o-wrapper--flush {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 
 // COMPONENTS

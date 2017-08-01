@@ -8,8 +8,8 @@ permalink:  /anmeldung/
 <!--<form id="registrationForm" class="c-form" action="https://getsimpleform.com/messages?form_api_token=a86e06c423eea17e2c269e9a7bd12e7c" method="post">-->
     <!--<input type='hidden' name='redirect_to' value='http://www.waldenses.org/empfangsbestaetigung/' />-->
 
-    <div class="c-alert c-alert--tertiary">
-        <p class="u-margin-bottom-none"><strong>Anmeldeschluss:</strong> 15. November 2017</p>
+    <div class="c-alert c-alert--primary">
+        <strong>Anmeldeschluss:</strong> 15. November 2017
     </div>
 
     <fieldset>
@@ -17,7 +17,7 @@ permalink:  /anmeldung/
         <legend>Preisübersicht</legend>
 
         <div class="u-owl">
-            <table class="c-table c-table--pricing u-content-left">
+            <table class="c-table c-table--pricing u-text-left">
                 <thead>
                     <tr>
                         <th></th>
@@ -32,7 +32,8 @@ permalink:  /anmeldung/
                             <small class="u-text-normal">
                                 <br>inklusive Verpflegung
                                 <br>2x Mittag- &amp; 2x Abendessen,
-                                <br>ohne Unterkunft
+                                <br><strong>ohne Unterkunft,</strong>
+                                <br><strong>ohne Frühstück</strong>
                             </small>
                         </th>
                         <td>99,00 €</td>
@@ -49,7 +50,7 @@ permalink:  /anmeldung/
             <p><small>Verpflegung in der Wasserburg Turow: <strong>vegan/vegetarisch</strong> (glutenfrei auf Anfrage möglich)</small></p>
 
             <div class="c-alert c-alert--secondary">
-                Die Unterkunft muss separat und selbst gebucht werden. Wir haben dazu eine Liste von <a href="/unterkunft/">Unterkünften in der Nähe</a> zusammengestellt.
+                <strong>Die Unterkunft muss separat und selbst gebucht werden. Wir haben dazu eine Liste von <a href="/unterkunft/">Unterkünften in der Nähe</a> zusammengestellt.</strong>
             </div>
         </div>
 
@@ -149,17 +150,39 @@ permalink:  /anmeldung/
 
     <p class="">Mit <sup>*</sup> markierte Felder sind Pflichtfelder.</p>
 
-    <div class="o-layout u-owl u-owl--bottom">
+    <div class="o-layout u-owl u-owl--bottom u-text-center">
         <div class="o-layout__item u-1/2@tablet u-1/3@desktop">
             <button type="submit" class="c-btn c-btn--primary">Anmeldung absenden</button>
         </div>
         <div class="o-layout__item u-1/2@tablet u-1/3@desktop">
-            <a href="/zahlungsinformationen/" class="c-btn c-btn--primary c-btn--ghost">Zahlungsinformationen</a>
+            <a href="/unterkunft/" class="c-btn c-btn--primary c-btn--ghost">Unterkunft</a>
         </div>
         <div class="o-layout__item u-1/1@tablet u-1/3@desktop">
             Kontakt bei Fragen:
-            <br><noscript defuscate data-name="jahrestagung" data-domain="asi-germany.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+            <br><noscript defuscate data-name="jahrestagung" data-domain="asigermany.org"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
         </div>
     </div>
 
 </form>
+
+<hr class="u-mt u-mb+">
+
+
+## Zahlungsinformationen
+
+Die Zahlung erfolgt auf das Bankkonto von ASI Deutschland e.V. Die Anmeldung ist erst nach dem Zahlungseingang gültig.
+
+### Bankverbindung
+
+<pre>
+ASI Deutschland e.V.
+Kreissparkasse Waiblingen
+IBAN: DE51 6025 0010 0015 1194 05
+BIC: SOLADES1WBN
+</pre>
+
+Als Verwendungszweck bitte ```ASI-TAGUNG 2017 NAME``` verwenden und ```NAME``` mit dem vollständigen **Vor- und Nachnamen** ersetzen.
+
+<div class="c-alert">
+    Bitte vergesst nicht, rechtzeitig eine geeignete <a href="/unterkunft/">Unterkunft</a> zu buchen.
+</div>
