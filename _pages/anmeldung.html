@@ -6,7 +6,7 @@ permalink:  /anmeldung/
 
 <!--<form action="https://getform.org/f/3e5f9f13-a9b6-4924-95b1-5b5ec903e4b6" method="POST">-->
 
-<form action="https://api.formbucket.com/f/buk_ZCuGnZ8DgMTKKmKqcKwerB0G" method="post" target="_blank">
+<form id="anmeldeformular" class="c-form" action="https://api.formbucket.com/f/buk_ZCuGnZ8DgMTKKmKqcKwerB0G" method="post" target="_blank">
 
     <div class="c-alert c-alert--primary">
         <strong>Anmeldeschluss:</strong> 15. November 2017
@@ -36,8 +36,8 @@ permalink:  /anmeldung/
                                 <br><strong>ohne Frühstück</strong>
                             </small>
                         </th>
-                        <td>99,00 €</td>
-                        <td>89,00 €</td>
+                        <td>99,00 &euro;</td>
+                        <td>89,00 &euro;</td>
                     </tr>
                     <tr>
                         <th>Kinder bis 14 Jahre</th>
@@ -129,16 +129,21 @@ permalink:  /anmeldung/
         <legend>Buchungsoptionen</legend>
 
         <ul class="o-layout u-owl u-owl--small">
-            <li class="o-layout__item u-1/2@tablet">
+            <li class="o-layout__item u-1/3@tablet">
                 <div class="c-form__label">ASI Mitglied <sup>*</sup></div>
                 <div class="c-form__radio-group">
                     <label class="c-form__radio-btn" for="ja">
-                        <input id="ja" type="radio" name="ASI Mitglied" value="Ja" required> Ja
+                        <input id="ja" type="radio" name="ASI-Mitglied" value="Ja" required> Ja
                     </label><!--
                     --><label class="c-form__radio-btn" for="nein">
-                        <input id="nein" type="radio" name="ASI Mitglied" value="Nein" required checked="checked"> Nein
+                        <input id="nein" type="radio" name="ASI-Mitglied" value="Nein" required checked="checked"> Nein
                     </label>
                 </div>
+            </li>
+            <li class="o-layout__item u-2/3@tablet">
+                <div class="c-form__label">Teilnehmerbetrag</div>
+                <p class="u-text-large"><span id="priceDisplay">99,00</span> &euro;</p>
+                <input id="priceInput" class="u-hidden" type="text" name="Teilnehmerbetrag" value="99,00 EUR"/>
             </li>
             <li class="o-layout__item">
                 <label class="c-form__label" for="comment">Kommentar</label>

@@ -7,7 +7,10 @@ backlink:   /anmeldung
 
 <div class="o-flag u-mb">
     <div class="o-flag__img"><img style="opacity: .8" src="/assets/img/check.svg" alt=""></div>
-    <div class="o-flag__body u-text-large">Deine Anmeldung ist bei uns eingegangen,<br>wir freuen und schon auf Dein Kommen!</div>
+    <div class="o-flag__body u-text-large">
+        <strong>Wir freuen und schon auf Dein Kommen!</strong>
+        <br>Deine Anmeldung ist bei uns eingegangen und Du wirst in kürze eine Bestätigungsnachricht von uns erhalten.
+    </div>
 </div>
 
 ## Anmelde&shy;informationen
