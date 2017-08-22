@@ -106,6 +106,8 @@ $( "#anmeldeformular" ).change(function() {
 function setEventPrice(price) {
     price = price.toFixed(2).replace(".", ",");
     $("#priceDisplay").text(price);
-    $("#priceInput").val(price);
+    $("#priceInput").val(price + " EUR");
+    // $("#priceDisplay").text("hallo welt");
+    // $("#priceInput").val("hallo welt");
 }
 
