@@ -16,7 +16,7 @@ backlink:
 ## Kontakt:
 
 - Telefon: 0700-27433887
-- E-Mail: <noscript defuscate data-name="info" data-domain="asideutschland.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+- E-Mail: <noscript data-defuscate data-name="info" data-domain="asideutschland.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
 
 ## Vorstand
 Gabriele Pietruska (Vorsitzende), Markus Witte (Stellv. Vorsitzender), Daniel Knirsch (Rechnungsführer), Ronny Schreiber (Sekretär), Jesse Zwiker (weiteres Vorstandsmitglied), Gabriel Maurer (weiteres Vorstandsmitglied)

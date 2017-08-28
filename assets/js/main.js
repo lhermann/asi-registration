@@ -6,6 +6,7 @@
 {% include_relative vendor/jquery.validate.min.js %}
 {% include_relative vendor/jquery.validate.messages_de.js %}
 {% include_relative vendor/moment.min.js %}
+{% include_relative _spambotscare.js %}
 
 /**
  * jQuery UI Date Picker
@@ -49,20 +50,6 @@ $("#anmeldeformular").validate({
 });
 
 
-/**
- * Email Obfuscator
- * @author: Lukas Hermann <lukas@codethink.de>
- *
- * Use with the following html-tag:
- * <noscript defuscate data-name="lukas" data-domain="codethink.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
- */
-var spam = $("[defuscate]"), lhs = spam.attr("data-name"), rhs = spam.attr("data-domain");
-var nospam = "<a href=\"mailto" + ":" + lhs + "spamkill@" + rhs + "\" onclick=\"rep(this)\">" + lhs + "<span class=\"u-hidden\">spamkill</span>" + window.atob('QA==') + rhs + "</a>";
-spam.replaceWith( nospam );
-function rep(e) {
-    e.href=e.href.replace(/spamkill/,'')
-}
-
 
 /**
  * Calculate Price
@@ -92,9 +79,10 @@ var eventDate = moment("24.11.2017", "DD.MM.YYYY"),
     ];
 
 $( "#anmeldeformular" ).change(function() {
-    birthdate = $(this).find("#birthdate").val() || 1;
+    var birthdate = $(this).find("#birthdate").val() || 1;
     birthdate = moment(birthdate).isValid() ? moment(birthdate) : moment(birthdate, "DD.MM.YYYY");
-    member = $(this).find("input[name=ASI-Mitglied]:checked").val();
+    var member = $(this).find("input[name=ASI-Mitglied]:checked").val();
+
     eventPrice.some( function(item, key) {
         if( birthdate.isAfter( item.date ) && member == item.member ) {
             setEventPrice(item.price);
@@ -107,7 +95,5 @@ function setEventPrice(price) {
     price = price.toFixed(2).replace(".", ",");
     $("#priceDisplay").text(price);
     $("#priceInput").val(price + " EUR");
-    // $("#priceDisplay").text("hallo welt");
-    // $("#priceInput").val("hallo welt");
 }
 
